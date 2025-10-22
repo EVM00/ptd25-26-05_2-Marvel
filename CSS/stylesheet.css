@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+}
+
+main {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pag {
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid slateblue;
+    background-color: rgb(30, 40, 50);
+    color: aliceblue;
+    padding-top: 1%;
+    /* margin-bottom: 1%; */
+}
+
+img {
+    width: 225px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.container > div {
+  background-color: rgb(30, 40, 50);
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.imagen {
+    display: block;
+    padding-bottom: 5%;
+}
+
+table {
+    width: 82%;
+    margin-left: 6%;
+}
+
+.read {
+    background-color: rgb(105, 150, 38);
+    color: black;
+    border-radius: 8px;
+    font-size: medium;
+    
+}
+
+.tit {
+    font-size: large;
+    font-weight: bold;
+}
+
+.aut {
+    font-size: medium;
+    font-weight: normal;
+
+}
+
+.tit, .aut {
+    text-align: left;
+    width: 68%;
+}
+
+.read:hover{
+    background-color: rgb(146, 209, 51);
+}
