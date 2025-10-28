@@ -30,16 +30,16 @@ img {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
+  gap: 20px;
 }
 .container > div {
   background-color: rgb(30, 40, 50);
-  border: 10px solid rgb(255, 255, 255);
   border-radius: 20px;
   padding: 10px;
   font-size: 30px;
   color: aliceblue;
   text-align: center;
-  margin-bottom: 4%;
+  /* margin-bottom: 4%; */
 }
 
 .imagen {
