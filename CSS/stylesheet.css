@@ -31,6 +31,7 @@ img {
   grid-template-columns: auto auto auto auto;
   padding: 10px;
   gap: 20px;
+  
 }
 .container > div {
   background-color: rgb(30, 40, 50);
@@ -47,19 +48,6 @@ img {
     padding-bottom: 5%;
 }
 
-table {
-    width: 82%;
-    margin-left: 6%;
-}
-
-.read {
-    background-color: rgb(105, 150, 38);
-    color: black;
-    border-radius: 8px;
-    font-size: medium;
-    
-}
-
 .tit {
     font-size: large;
     font-weight: bold;
@@ -68,14 +56,36 @@ table {
 .aut {
     font-size: medium;
     font-weight: normal;
-
 }
 
 .tit, .aut {
     text-align: left;
-    width: 68%;
+    width: 92%;
+    margin-left: 4%;
+}
+
+.cocontainer {
+    display: grid;
+    grid-template-columns: auto 150px;
+}
+
+/* .cocontainer > div {
+    
+} */
+
+.read{
+    background-color: rgb(129, 182, 49);
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition-duration: 0.4s;
+
 }
 
 .read:hover{
-    background-color: rgb(146, 209, 51);
+    background-color: black;
+    color: rgb(129, 182, 49);
 }
